@@ -14,4 +14,19 @@ info = df.info()
 
 
 desc = df.describe()
-print(desc)
+#print(desc)
+
+score_column = df["score"]
+#print("single column(score):")
+#print(score_column)
+
+selected_columns = df[[ "name","score"]]
+
+#print("Multiple Columns (name and score):")
+#print(selected_columns)
+
+filtered_rows = df[["name","score"]]
+
+print("Flitered rows (Score > 80):")
+print(filtered_rows)
+
