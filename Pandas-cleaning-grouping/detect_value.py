@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# Creating sample dataset
 data = {
     "Employee": [
         "Amit", "Neha", "Rahul", "Sneha",
@@ -24,7 +25,6 @@ data = {
 
 df = pd.DataFrame(data)
 
-#print("🔹 Original DataFrame:")
-#print(df)
 
-
+print("\n* missing values:")
+print(df.isnull().sum())
