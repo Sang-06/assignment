@@ -24,6 +24,8 @@ data = {
 
 df = pd.DataFrame(data)
 
+mean_salary = df["Salary"].mean()
+df["Salary"].fillna(mean_salary, inplace=True)
 
-print("\n* missing values:")
-print(df.isnull().sum())
+print("\n* after filling missing salary:")
+print(df)
