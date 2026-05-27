@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarav Mehta</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 16px;
+            color: #666;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .left-column {
+            width: 35%;
+            padding: 20px;
+        }
+        .right-column {
+            width: 65%;
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #2563eb;
+            border-bottom: 1px solid #2563eb;
+            margin-bottom: 10px;
+        }
+        .section-title-small {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #2563eb;
+            border-bottom: 1px solid #2563eb;
+            margin-bottom: 10px;
+        }
+        .skills {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skills li {
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .skills li::before {
+            content: "";
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            background-color: #2563eb;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        .experience {
+            margin-bottom: 20px;
+        }
+        .experience h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .experience p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .projects {
+            margin-bottom: 20px;
+        }
+        .projects h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .projects p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Aarav Mehta</h1>
+            <p>Software Developer | <a href="mailto:aarav.mehta@example.com">aarav.mehta@example.com</a> | +91-98765-43210 | Roorkee, Uttarakhand</p>
+        </div>
+        <div class="columns">
+            <div class="left-column">
+                <div class="section-title">CONTACT</div>
+                <p>Email: <a href="mailto:aarav.mehta@example.com">aarav.mehta@example.com</a></p>
+                <p>Phone: +91-98765-43210</p>
+                <p>Location: Roorkee, Uttarakhand</p>
+                <div class="section-title-small">EDUCATION</div>
+                <p>B.Tech Computer Science, IIT Roorkee (expected 2026), CGPA 8.4</p>
+                <div class="section-title-small">SKILLS</div>
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>REST APIs</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>Basic ML</li>
+                </ul>
+            </div>
+            <div class="right-column">
+                <div class="section-title">EXPERIENCE</div>
+                <div class="experience">
+                    <h2>Summer Intern, TechBridge Labs (Jun-Aug 2025)</h2>
+                    <p>Built internal dashboards with FastAPI and PostgreSQL.</p>
+                </div>
+                <div class="section-title">PROJECTS</div>
+                <div class="projects">
+                    <h2>Hostel Room Booking CLI (Python)</h2>
+                    <p>200+ active users on campus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
