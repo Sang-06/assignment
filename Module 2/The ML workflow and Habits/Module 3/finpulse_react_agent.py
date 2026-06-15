@@ -16,11 +16,6 @@ from langchain_core.prompts import PromptTemplate
 
 load_dotenv()
 
-# ⚠️ TEMPORARY — Replace with your NEW keys
-# DELETE these two lines before submitting to GitHub!
-os.environ["GROQ_API_KEY"] = ""
-os.environ["SERPER_API_KEY"] = ""
-
 
 # ============================================================
 # STEP 2 — Smoke-test both tools
