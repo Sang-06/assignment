@@ -1,0 +1,2 @@
+2026-06-26 21:38:08,771 | WARNING | Retrying __main__.lookup_order_status in 1 seconds as it raised Exception: HTTP 429 Too Many Requests.
+2026-06-26 21:38:09,772 | WARNING | Retrying __main__.lookup_order_status in 2 seconds as it raised Exception: HTTP 429 Too Many Requests.
