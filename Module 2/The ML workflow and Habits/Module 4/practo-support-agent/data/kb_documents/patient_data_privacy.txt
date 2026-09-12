@@ -1,0 +1,2 @@
+Patient Data Privacy Policy:
+All health records and personal consultation data are encrypted using 256-bit encryption standard. Contact phone numbers and personal identifiers are sanitized to ensure strict privacy compliance.

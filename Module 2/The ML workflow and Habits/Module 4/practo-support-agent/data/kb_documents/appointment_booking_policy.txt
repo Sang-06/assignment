@@ -1,0 +1,2 @@
+Practo Appointment Booking Policy:
+Patients can book clinic appointments up to 30 days in advance via the Practo portal. Confirmation is sent instantly upon selecting an available slot. A valid 10-digit phone number is required for all bookings.

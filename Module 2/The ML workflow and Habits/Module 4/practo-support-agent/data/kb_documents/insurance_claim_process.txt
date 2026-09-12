@@ -1,0 +1,2 @@
+Insurance Claim Process:
+Patients can download itemized consultation bills and diagnostic summaries directly from the app. Cashless claims are supported at network hospitals upon presenting a valid digital insurance ID.
